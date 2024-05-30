@@ -1102,6 +1102,7 @@ input {
         grid-template-columns: 1fr;
         margin-left: 2rem;
         margin-right: 2rem;
+        padding-left: 0;
     }
     .skills-description {
         height: 200px;
