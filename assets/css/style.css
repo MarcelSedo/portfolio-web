@@ -811,21 +811,15 @@ input {
         margin-left: 1.5rem;
         margin-right: 1.5rem;
     }
-    .nav_close {
-        display: block;
-        color: #f1f1f3;
-    }
-    .nav_toggle {
-        display: flex;
-    }
-    .show-sidebar{
-        transform: translateX(0);
-        
-    }
+
     .sidebar {
         width: 100%;
         z-index: 999;
         transform: translateX(-100%);
+    }
+    .show-sidebar{
+        transform: translateX(0);
+        
     }
 
     .nav-logo,
@@ -840,6 +834,11 @@ input {
         justify-content: center;
         color: #f1f1f3;
     }
+
+    .home-social {
+        margin-left: 21rem;
+    }
+
     .nav-list {
         flex-direction: column;
         height: 100%;
@@ -853,6 +852,17 @@ input {
     }
     .nav-link.active-link::after, .nav-link:hover::after{
         bottom: 0;
+    }
+
+    .nav_close {
+        display: block;
+        color: #f1f1f3;
+    }
+    .nav_toggle {
+        display: flex;
+        right: initial;
+        left: 1.5rem;
+        z-index: 900;
     }
     
     .main {
@@ -887,8 +897,10 @@ input {
         grid-template-columns: repeat(2, 290px);
     }
     .skills-container {
-        grid-template-columns: 400px 400px;
-        margin-left: 100px;
+        grid-template-columns: 20rem 20rem;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-right: 5rem;
     }
 
     .work-card {
@@ -907,8 +919,8 @@ input {
         margin-bottom: .5rem;
     }
     .contact-img {
-        width: 400px;
-        height: 600px;
+        width: 18rem;
+        height: 28rem;
     }
     .contact-container {
         grid-template-columns: repeat(2, 1fr);
@@ -999,33 +1011,14 @@ input {
     .home-social {
         left: initial;
         margin-top: -6rem;
-        right: -1rem;
+        right: .25rem;
         row-gap: 3.5rem;
     }
-    .social-follow::after {
-        content: "";
-        position: absolute;
-        width: .5rem;
-        height: 2px;
-        background-color: #f1f1f3;
-        right: -25%;
-        top: 50%;
-    }
-    .social-follow {
-        font-size: smaller;
 
-    }
     .social-linky {
-        row-gap: .25rem;
+        row-gap: .15rem;
     }
-    .social-linka {
-        color: aliceblue;
-        font-size: small;
-        transition: .4s;
-    }
-    .social-linka:hover {
-        transform: translateY(.25rem);
-    }
+  
     .my-info {
         display: none;
     }
@@ -1075,7 +1068,6 @@ input {
         text-align: center;
         font-size: 1.75rem;
     }
-
     .about-info {
         grid-template-columns: repeat(2, 1fr);
         row-gap: .5rem;

@@ -1,5 +1,5 @@
 //////////////// SIDEBAR ///////////////////////
-const navMenu = document.getElementById("sidebarId");
+const navMenu = document.getElementById("sidebar");
 const navToggle = document.getElementById("nav-toggle");
 const navClose = document.getElementById("nav-close"); 
 
