@@ -1043,6 +1043,7 @@ input {
     .skills-container {
         grid-template-columns: 350px;
         justify-content: center;
+        padding-left: 2rem;
     }
     .contact-container,
     .work-container {
