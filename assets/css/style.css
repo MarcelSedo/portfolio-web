@@ -711,7 +711,7 @@ input {
 }
 .contact-img {
     height: 40rem;
-    margin-left: 5rem;
+    margin-left: 3rem;
     border-radius: 1rem;
     border: 1px solid #ea00d9;
 }
@@ -923,6 +923,7 @@ input {
     .contact-img {
         width: 18rem;
         height: 28rem;
+        margin-left: 5rem;
     }
     .contact-container {
         grid-template-columns: repeat(2, 1fr);
